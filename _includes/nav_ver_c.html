@@ -1,11 +1,11 @@
-<nav class="navbar navbar-expand-md navbar-light bg-light flex-column custom-nav-ver">
+<nav class="navbar navbar-expand-md navbar-light flex-column custom-nav-ver">
 
-    <a class="navbar-brand" href="#">MyClient</a>
+    <a class="navbar-brand" href="#"><img src="{{'/images/LogoZwart.png'|relative_url}}" alt="logo" class="nav-logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse flex-column" id="mainNavigation">
+    <div class="collapse navbar-collapse flex-column navigatie-paginas-kolom" id="mainNavigation">
 
     <ul class="navbar-nav flex-column">
 {%- for nav-item in site.data.navigation %}
