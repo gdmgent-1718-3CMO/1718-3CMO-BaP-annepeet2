@@ -40,8 +40,8 @@
 
 .body-padding-onderaan {
   padding-bottom: 600px;
-  padding-left: 100px;
-  padding-right: 100px;
+  max-width: 60%;
+  margin-left: 70px;
 }
 
 
@@ -51,7 +51,6 @@
 
 .logo-voorstelling {
   max-width: 600px;
-  margin-right: 50%;
   margin-top: -60px;
   margin-bottom: -60px;
 }
@@ -111,7 +110,6 @@
 .DownloadButton2 {
   background: $color-black;
   border-radius: 0%;
-  margin-right: -250px;
   border: none;
   padding: 20px;
   padding-left: 60px;
@@ -119,6 +117,11 @@
   text-transform: uppercase;
 }
 
+.btn-primary:hover{
+color: #000;
+background-color: $AttitudeLichtBlauw;
+border-color: $AttitudeLichtBlauw;
+}
 
 
 /* KLEUR PAGINA 
@@ -183,7 +186,7 @@
   padding-left: 20px;
 }
 
-/* KLEUR PAGINA 
+/* TYPO PAGINA 
 ------------------------------------------------------------------------- */
 
 .lichtblauwe-kader {
@@ -193,7 +196,7 @@ margin-top: 80px;;
 
 .typo-h1 {
   font-weight:$font-weight-semibold;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   color: $color-black;
   text-transform: uppercase;
   padding-top: 40px;
@@ -231,6 +234,67 @@ margin-top: 80px;;
   padding-bottom: 20px;
 }
 
+/* TOEPASSINGEN PAGINA 
+------------------------------------------------------------------------- */
+
+.achtergrond-spiegel{
+background-color: $AttitudeLichtBlauw;
+max-height: 350px;
+margin-top: 130px;
+margin-bottom: 200px;
+}
+
+.foto-spiegel {
+  max-width: 600px;
+  margin-left: -180px;
+  margin-top: -50px;
+}
+
+.foto-batonzak{
+  max-height: 600px;
+  margin-left: -200px;
+  margin-top: -100px;
+  -webkit-transform:rotate(-10deg);
+        transform: rotate(-10deg);
+}
+
+.DownloadButton-toepassingen{
+  background: $AttitudeBlauw;
+  margin-top: 50px;
+  border-radius: 0%;
+  border: none;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-transform: uppercase;
+}
+
+.foto-drinkbus {
+  max-width: 700px;
+  margin-left: -350px;
+  margin-top: -50px;
+}
+
+.foto-trolley {
+  max-width: 800px;
+  margin-left: -100px;
+  margin-top: -90px;
+}
+
+.foto-banner{
+max-width: 600px;
+margin-left: -200px;
+}
+
+.foto-folder {
+  max-width: 550px;
+  margin-left: -150px;
+}
+
+.foto-nieuwsbrief{
+max-width: 520px;
+margin-left: -180px;
+}
 
 /* FOOTER
 ----------------------------------------------
