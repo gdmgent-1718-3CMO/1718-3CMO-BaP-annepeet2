@@ -1,6 +1,4 @@
-/* Navigation
----------------------------------------------
-*/
+/* Navigation --------------------------------------------- */
 
 .navbar {
   position: fixed;
@@ -8,12 +6,7 @@
 
 .navbar a {
     border: none;
-}
 
-.kolom-navigatiebar {
-  background-color: $AttitudeBlauw;
-  margin-right: 60px;
-  min-height: 900px;
 }
 
 .nav-logo {
@@ -28,21 +21,32 @@
 
 .nav-item {
   text-transform: uppercase;
-  font-weight:$font-weight-medium;
-  font-size: 1.5rem;
+  font-weight:$font-weight-semibold;
+  font-size: 1.1rem;
+  line-height: 50%;
+  font-family: $myfont-family-title;
 }
 
 .nav-item a {
   padding-top: 20px;
   padding-bottom: 20px;
   opacity: 1.0;
+  color: $TwirlRood !important;
+  opacity: 1;
+}
+
+.nav-item :hover{
+  opacity: 0.5;
+}
+
+.nav-item :active{
+  opacity: 1 !important;
 }
 
 .body-padding-onderaan {
   padding-bottom: 600px;
-  max-width: 60%;
-  margin-left: 70px;
 }
+
 
 
 
@@ -50,9 +54,8 @@
 ------------------------------------------------------------------------- */
 
 .logo-voorstelling {
-  max-width: 600px;
-  margin-top: -60px;
-  margin-bottom: -60px;
+  max-width: 450px;
+  margin-top: 70px;
 }
 
 .logo-inhoud {
@@ -119,15 +122,15 @@
 
 .btn-primary:hover{
 color: #000;
-background-color: $AttitudeLichtBlauw;
-border-color: $AttitudeLichtBlauw;
+background-color: $TwirlRoze;
+border-color: $TwirlRoze;
 }
 
 
 /* KLEUR PAGINA 
 ------------------------------------------------------------------------- */
 .hoofdkleur {
-  background-color: $AttitudeBlauw;
+  background-color: $TwirlRood;
   min-height: 300px;
   margin-top: 50px;
   margin-left: 20px;
@@ -145,13 +148,13 @@ border-color: $AttitudeLichtBlauw;
 }
 
 .secundairekleur1 {
-  background-color: $AttitudeLichtBlauw;
+  background-color: $TwirlRoze;
   min-height: 300px;
   max-width: 450px;
 }
 
 .secundairekleur2 {
-  background-color: $AttitudeRood;
+  background-color: $TwirlRoze;
   min-height: 300px;
   max-width: 450px;
 }
@@ -190,7 +193,7 @@ border-color: $AttitudeLichtBlauw;
 ------------------------------------------------------------------------- */
 
 .lichtblauwe-kader {
-background-color: $AttitudeLichtBlauw;
+background-color: $TwirlRoze;
 margin-top: 80px;; 
 }
 
@@ -258,21 +261,74 @@ margin-top: 80px;;
   padding-bottom: 60px;
 }
 
+/* PRINT PAGINA 
+------------------------------------------------------------------------- */
+
+.container-twirlzak{
+  position: relative;
+}
+
+.print-titel {
+  margin-bottom: -320px;
+}
+
+.print-titel-extra {
+  margin-bottom: -450px;
+}
+
+.print-titel p {
+  background-color: white;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: $myfont-family-title;
+  margin-left: -30px;
+}
+
+.foto-twirlzak{
+  max-width: 140%;
+  margin-left: -237px;
+}
+
+.foto-haarspeldenzak{
+  width: 148%;
+  margin-left: -312px;
+}
+
+.foto-drinkbus{
+  width: 200%;
+  margin-right: -400px;
+}
+
+.DownloadButton-print{
+  background: $TwirlRood;
+  border-radius: 0%;
+  border: none;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-transform: uppercase;
+  font-family: $myfont-family-title;
+  font-size: 1.2rem;
+  font-weight:$font-weight-semibold;
+  position: absolute;
+  top: 85%;
+  left: 70%;
+  }
+
+.DownloadButton-print :hover{
+  background-color: $TwirlRoze;
+}
+
+
+
+
 /* TOEPASSINGEN PAGINA 
 ------------------------------------------------------------------------- */
 
-.achtergrond-spiegel{
-background-color: $AttitudeLichtBlauw;
-max-height: 350px;
-margin-top: 130px;
-margin-bottom: 200px;
-}
 
-.foto-spiegel {
-  max-width: 600px;
-  margin-left: -180px;
-  margin-top: -50px;
-}
+
 
 .foto-batonzak{
   max-height: 600px;
@@ -282,16 +338,7 @@ margin-bottom: 200px;
         transform: rotate(-10deg);
 }
 
-.DownloadButton-toepassingen{
-  background: $AttitudeBlauw;
-  margin-top: 50px;
-  border-radius: 0%;
-  border: none;
-  padding: 20px;
-  padding-left: 60px;
-  padding-right: 60px;
-  text-transform: uppercase;
-}
+
 
 .foto-drinkbus {
   max-width: 700px;
@@ -342,7 +389,7 @@ body {
 }
 
 footer {
-    background-color: $AttitudeLichtBlauw;
+    background-color: white;
     color: $color-black;
     a {
         color: $color-black;
@@ -352,15 +399,6 @@ footer {
     }
 }
 
-.icon-facebook {
-  max-width: 70px;
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-
-.icon-facebook :hover {
-  transition: transform .2s;
-}
 
 .icon-artevelde {
   max-width: 180px;

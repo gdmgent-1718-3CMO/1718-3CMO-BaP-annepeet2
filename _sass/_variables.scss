@@ -9,14 +9,13 @@ $color-grey:rgba(100,99,99,1);
 $color-black:rgba(0,0,0,1);
 
 // Website
-$AttitudeBlauw:rgba(22,159,219,1);
-$AttitudeLichtBlauw:rgba(150,211,221,1);
-$AttitudeRood:rgba(160,78,99,1);
+$TwirlRood:rgba(215,53,52,1);
+$TwirlRoze:rgba(252,217,203,1);
 
 
 $body-bg:$color-white;
 $body-color:$color-black;
-$body-link:$AttitudeBlauw;
+$body-link:$TwirlRood;
 
 
 // Client specific
@@ -33,13 +32,15 @@ $clientcolor-5:rgba(250,120,120,1);
 // Imports
 // Website
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre');
 
 // Client specific
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre');
 
 // type
-$myfont-family-base: 'Montserrat', serif;
-$myfont-family-title: $myfont-family-base;
+$myfont-family-base: 'Frank+Ruhl+Libre';
+$myfont-family-title: 'Montserrat', sans-serif;
 
 // sizes
 $font-size-base: 16px;
@@ -47,7 +48,7 @@ $lineheight-base: 1.6em;
 $font-weight-light: 200;
 $font-weight-regular: 300;
 $font-weight-medium: 400;
-$font-weight-semibold: 600;
+$font-weight-semibold: 500;
 $font-weight-bold: 800;
 
 
@@ -63,5 +64,5 @@ $client-font-size-base: 16px;
 $client-lineheight-base: 1.6em;
 $client-font-weight-light: 200;
 $client-font-weight-medium: 400;
-$client-font-weight-semibold: 600;
+$client-font-weight-semibold: 500;
 $client-font-weight-bold: 800;

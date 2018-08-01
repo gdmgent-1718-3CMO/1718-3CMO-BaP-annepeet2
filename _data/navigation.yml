@@ -1,7 +1,7 @@
 # functie uitschakelen met '#'
 # dubbele spatie voor de criteria behouden
 
-- name: Home
+- name: 
   description: Home
   # folder: pages/
   permalink: / 
@@ -25,8 +25,14 @@
   permalink: /typografie
   # fa-icon: icon-info
 
-- name: Toepassingen
-  description: Toepassingen
-  # folder: pages/toepassingen
-  permalink: /toepassingen
+- name: Print
+  description: Print
+  # folder: pages/print
+  permalink: /print
+  # fa-icon: icon-info
+
+- name: Digitaal
+  description: Digitaal
+  # folder: pages/digitaal
+  permalink: /digitaal
   # fa-icon: icon-info

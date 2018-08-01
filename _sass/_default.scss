@@ -5,7 +5,7 @@ body {
     font-weight: $font-weight-regular;
     font-size: $font-size-base;
     line-height: $lineheight-base;
-    background-color: $body-bg;
+    background-color: $TwirlRoze;;
     color: $body-color;
 }
 
@@ -24,12 +24,13 @@ h1 {
 }
 
 h2 {
-    font-weight: $font-weight-medium;
+    font-weight: $font-weight-semibold;
     font-size: 2.5rem;
     margin: 2rem 0 1rem;
-    color: $AttitudeBlauw;
+    color: $TwirlRood;
     padding-top: 80px;
     padding-bottom: 10px;
+    text-transform: uppercase;
 }
 h3 {
     font-weight: $font-weight-medium;
@@ -54,7 +55,7 @@ a {
 }
 blockquote {
     padding-left: 24px;
-    border-left: 2px solid $AttitudeBlauw;
+    border-left: 2px solid $TwirlRood;
 }
 
 // ongeordende lijstjes met een ander symbool of kleur
@@ -67,7 +68,7 @@ main ul {
     text-indent: -25px;
     &:before {
         content:'\2022';
-        color: $AttitudeLichtBlauw;
+        color: $TwirlRoze;
         margin-right: 18px;
     }    
   }
@@ -89,7 +90,7 @@ main ol {
         padding: 3px 6px;
         margin-right: 5px;
         border-radius: 5px;
-        background-color: $AttitudeBlauw;
+        background-color: $TwirlRood;
         color: $color-white;
         font-family: $myfont-family-title;
         font-weight: $font-weight-bold;
