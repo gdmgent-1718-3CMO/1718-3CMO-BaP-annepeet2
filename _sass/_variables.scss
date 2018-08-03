@@ -32,32 +32,33 @@ $clientcolor-5:rgba(250,120,120,1);
 // Imports
 // Website
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre');
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300,400,500,700,900');
 
 // Client specific
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre');
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300,400,500,700,900');
 
 // type
-$myfont-family-base: 'Frank+Ruhl+Libre';
+$myfont-family-base: 'Montserrat', sans-serif;
 $myfont-family-title: 'Montserrat', sans-serif;
+$myfont-family-frank: 'Frank+Ruhl+Libre', serif;
 
 // sizes
-$font-size-base: 16px;
+$font-size-base: 14px;
 $lineheight-base: 1.6em;
 $font-weight-light: 200;
 $font-weight-regular: 300;
 $font-weight-medium: 400;
 $font-weight-semibold: 500;
-$font-weight-bold: 800;
+$font-weight-bold: 700;
 
 
 // Type Client specific
 //------------------------------
 
 // type
-$clientfont-family-base: 'Montserrat', serif;
-$clientfont-family-title: $myfont-family-base;
+$clientfont-family-base: 'Frank+Ruhl+Libre', serif;
+$clientfont-family-title: 'Montserrat', sans-serif;
 
 // sizes
 $client-font-size-base: 16px;
@@ -65,4 +66,4 @@ $client-lineheight-base: 1.6em;
 $client-font-weight-light: 200;
 $client-font-weight-medium: 400;
 $client-font-weight-semibold: 500;
-$client-font-weight-bold: 800;
+$client-font-weight-bold: 900;

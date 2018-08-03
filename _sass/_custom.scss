@@ -44,8 +44,39 @@
 }
 
 .body-padding-onderaan {
-  padding-bottom: 600px;
+  padding-bottom: 300px;
 }
+
+
+
+
+
+/* HOME PAGINA 
+------------------------------------------------------------------------- */
+
+
+.Illustratie_Twirlster{
+  max-width: 900px;
+  margin-top: -200px;
+  margin-left: -160px;
+}
+
+.home-titel{
+  margin-top: 140px;
+}
+
+.home-tekst {
+  padding-top: 200px;
+}
+
+.home-tekst h4 {
+  padding-top: 40px;
+}
+
+
+
+
+
 
 
 
@@ -53,8 +84,14 @@
 /* LOGO PAGINA 
 ------------------------------------------------------------------------- */
 
+.logo-container{
+margin-top: 130px;
+margin-bottom: 200px;
+
+}
+
 .logo-voorstelling {
-  max-width: 450px;
+  max-width: 500px;
   margin-top: 70px;
 }
 
@@ -64,43 +101,60 @@
   margin-bottom: -60px;
 }
 
-.logo-positief {
-  max-width: 800px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.logo-witruimte {
-  max-width: 600px;;
-}
-
-.logo-print {
-  max-width: 200px;
-}
-
-.LogoTekstMinimumFormaat {
+.foto-zwartwit{
+  max-width: 400px;
   padding-top: 40px;
 }
 
-.minimumformaat-padding {
-  padding-left: 50px;
+.foto-witruimte {
+  max-width: 500px;
+  margin-top: 100px;
 }
 
-.logo-foto {
-  max-width: 400px;
-  margin-top: 40px;
+.foto-min-print{
+  max-width: 100px; 
+  margin-top: 270px;
+  margin-left: 200px;
+
 }
 
-.text-kleuren-padding {
-  padding-top: 100px;
+.foto-min-web{
+  max-width: 170px; 
+  float: right;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+.titel-min{
+  margin-bottom: -250px;
 }
 
 .logo-dont {
-  max-width: 100%;;
+  width: 250px;
+  margin-top: 40px;
+}
+
+.dont-header{
+  background-color: #fff;
+  height: 250px;
+}
+
+.dont-body p{
+  font-size: 0.9rem;
+  padding-bottom: 0;
+  background-color:#fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.dont-eersterij{
+  padding-top: 60px;
 }
 
 .DownloadButton {
-  background: $color-black;
+  background: $TwirlRood;
+  font-weight:$font-weight-semibold;
   margin-top: 100px;
   border-radius: 0%;
   border: none;
@@ -108,16 +162,7 @@
   padding-left: 60px;
   padding-right: 60px;
   text-transform: uppercase;
-}
-
-.DownloadButton2 {
-  background: $color-black;
-  border-radius: 0%;
-  border: none;
-  padding: 20px;
-  padding-left: 60px;
-  padding-right: 60px;
-  text-transform: uppercase;
+  font-size: 1.2rem;
 }
 
 .btn-primary:hover{
@@ -126,145 +171,250 @@ background-color: $TwirlRoze;
 border-color: $TwirlRoze;
 }
 
+.download-kader{
+  background-color: #fff;
+  width: 400px;
+  height: 500px;
+}
+
+.download-tekst {
+margin-top: 40px;
+}
+
+.DownloadLogo {
+  background: $TwirlRood;
+  font-weight:$font-weight-semibold;
+  border-radius: 0%;
+  border: none;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 10px; 
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  width: 130px;
+}
+
+.DownloadLogoRoze{
+  background: $TwirlRoze;
+  color: #000;
+}
+
+.DownloadLogoRoze:hover{
+  background: $TwirlRood;
+  color: #fff;
+}
+
+.logo-download-kader {
+  width: 350px;
+  margin-top: 80px;
+}
+
+
+.download-container {
+  padding-top: 40px;
+}
+
+
+
+
 
 /* KLEUR PAGINA 
 ------------------------------------------------------------------------- */
-.hoofdkleur {
+
+.card {
+  border-top: 20px solid white;
+  border-left: 20px solid white;
+  border-right: 20px solid white;
+  border-radius: 0;
+  margin: 40px;
+}
+
+.card-neutraal{
+  margin: 0;
+}
+
+#card-kleur-rood{
   background-color: $TwirlRood;
-  min-height: 300px;
-  margin-top: 50px;
-  margin-left: 20px;
 }
 
-.hoofdkleur-tekst {
-  font-size: 2.3rem;
-  font-weight:$font-weight-medium;
-  margin-top: -250px;
-  padding-left: 40px;
-}
-
-.hoofdkleur-tekst p {
-  margin-top: 30px;
-}
-
-.secundairekleur1 {
+#card-kleur-roze{
   background-color: $TwirlRoze;
-  min-height: 300px;
-  max-width: 450px;
 }
 
-.secundairekleur2 {
-  background-color: $TwirlRoze;
-  min-height: 300px;
-  max-width: 450px;
+#card-kleur-zwart{
+background-color: #000;
 }
 
-.secundairekleur-tekst {
-  font-size: 1.5rem;
+#card-kleur-grijs{
+  background-color: #646363;
+}
+
+#card-kleur-wit{
+  background-color: #fff;
+}
+
+.card-header{
+  padding-left: 180px;
+  padding-top: 180px;
+  text-transform: uppercase;
+  font-family: $myfont-family-title;
+  font-weight:$font-weight-semibold;
+  color: white;
+}
+
+.card-header-zwart {
+  padding-left: 160px;
+}
+
+.card-body p{
+  font-family: $myfont-family-title;
   font-weight:$font-weight-medium;
-  margin-top: -200px;
-  padding-left: 20px;
+  font-size: 0.9rem;
+  line-height: 85%;
+  margin-left: -15px;
 }
 
-.Neutraal1 {
-  background-color: $color-black;
-  min-height: 300px;
-  max-width: 300px;
-}
-.Neutraal2 {
-  background-color: $color-grey;
-  min-height: 300px;
-  max-width: 300px;
-}
-.Neutraal3 {
-  background-color: white;
-  min-height: 300px;
-  max-width: 300px;
+.card-header-wit {
+  border: 0.1px solid black;
+  color: #000;
 }
 
-.neutraal-tekst {
-  font-size: 1.0rem;
-  font-weight:$font-weight-medium;
-  margin-top: -200px;
-  padding-left: 20px;
+.cards-neutraal{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
+
+
+
+
+
+
+
+
+
+
 
 /* TYPO PAGINA 
 ------------------------------------------------------------------------- */
 
-.lichtblauwe-kader {
-background-color: $TwirlRoze;
-margin-top: 80px;; 
+.typo-kader{
+  background-color: #fff;
+  margin-top: 50px;
 }
 
-.typo-h1 {
+.mont-n1{
   font-weight:$font-weight-semibold;
-  font-size: 2.1rem;
-  color: $color-black;
+  font-family: $myfont-family-title;
   text-transform: uppercase;
-  padding-top: 40px;
-  letter-spacing: 1pt;
-  padding-left: 40px;
+  font-size: 2.1rem;
+  padding-top: 80px;
+  padding-left: 110px;
 }
 
-.typo-h2 {
-  font-weight: $font-weight-medium;
-  font-size: 2.5rem;
-  margin: 2rem 0 1rem;
-  color: $color-black;
-  padding-left: 40px;
-}
-
-.typo-p {
-  font-weight: $font-weight-light;
-  font-size: 2.5rem;
-  margin: 2rem 0 1rem;
-  color: $color-black;
-  padding-left: 40px;
-}
-
-.typo-Aa {
-  font-weight:$font-weight-semibold;
-  padding-top: 60px;
-  padding-left: 60px;
-  font-size: 5.5rem;
-}
-
-.typo-tekst {
-  padding-left: 60px;
-  padding-right: 60px;
+.mont-n2{
+  font-weight:$font-weight-medium;
+  font-family: $myfont-family-title;
+  font-size: 1.2rem;
+  padding-left: 110px;
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
-.kader-tekstvormgeving {
-  border: 3px solid black;
-  margin-top: 60px;
-  margin-bottom: 60px;
+.mont-n3{
+  font-weight:$font-weight-regular;
+  font-family: $myfont-family-title;
+  font-size: 0.9rem;
+  padding-left: 110px;
+  padding-top: 20px;
 }
 
-.paddingleftright {
+.mont-aa{
+  font-weight:$font-weight-semibold;
+  font-family: $myfont-family-title;
+  font-size: 4.0rem;
+  padding-top: 100px;
+  padding-left: 110px;
+}
+
+.mont-tekst{
+  font-weight:$font-weight-regular;
+  font-family: $myfont-family-title;
+  font-size: 0.9rem;
+  padding: 40px;
+}
+
+.DownloadButton-typo{
+  background: $TwirlRood;
+  border-radius: 0%;
+  border: none;
+  padding: 20px;
   padding-left: 40px;
   padding-right: 40px;
+  text-transform: uppercase;
+  font-family: $myfont-family-title;
+  font-size: 1.0rem;
+  font-weight:$font-weight-semibold;
+  margin-bottom: 60px;
+  margin-top: 20px;
 }
 
-.titelniveau1{
-  margin-bottom: -100px;
-  padding-top: 40px;
+.frank-n1{
+  font-family: $myfont-family-frank;
+  font-weight:$font-weight-bold;
+  font-size: 2.1rem;
+  padding-top: 80px;
+  padding-left: 110px;
 }
 
-.titelniveau2 {
-  margin-bottom: -40px;
+.frank-n2{
+  font-family: $myfont-family-frank;
+  font-size: 1.2rem;
+  padding-left: 110px;
+  padding-top: 20px;
 }
 
-.doorlopendetekst{
-  padding-bottom: 60px;
+.frank-n3{
+  font-family: $myfont-family-frank;
+  font-size: 1.0rem;
+  padding-left: 110px;
+  padding-top: 20px;
 }
+
+.frank-aa{
+  font-family: $myfont-family-frank;
+  font-weight:$font-weight-bold;
+
+  font-size: 4.0rem;
+  padding-top: 100px;
+  padding-left: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* PRINT PAGINA 
 ------------------------------------------------------------------------- */
 
 .container-twirlzak{
+  position: relative;
+}
+
+.container-haarspeldenzak{
   position: relative;
 }
 
@@ -275,6 +425,15 @@ margin-top: 80px;;
 .print-titel-extra {
   margin-bottom: -450px;
 }
+
+.print-titel-batonton{
+  margin-bottom: -1000px;
+}
+
+.print-titel-drinkfles{
+  margin-top: 200px;
+}
+
 
 .print-titel p {
   background-color: white;
@@ -292,13 +451,18 @@ margin-top: 80px;;
 }
 
 .foto-haarspeldenzak{
-  width: 148%;
-  margin-left: -312px;
+  width: 128%;
+  margin-left: -128px;
+  margin-top: -30px;
 }
 
-.foto-drinkbus{
-  width: 200%;
-  margin-right: -400px;
+.foto-drinkfles{
+  margin-top: -450px;
+}
+
+.foto-batonton{
+  width: 135%;
+  margin-left: -193px;
 }
 
 .DownloadButton-print{
@@ -324,48 +488,13 @@ margin-top: 80px;;
 
 
 
-/* TOEPASSINGEN PAGINA 
+
+/* DIGITAAL PAGINA 
 ------------------------------------------------------------------------- */
 
 
 
 
-.foto-batonzak{
-  max-height: 600px;
-  margin-left: -200px;
-  margin-top: -100px;
-  -webkit-transform:rotate(-10deg);
-        transform: rotate(-10deg);
-}
-
-
-
-.foto-drinkbus {
-  max-width: 700px;
-  margin-left: -350px;
-  margin-top: -50px;
-}
-
-.foto-trolley {
-  max-width: 800px;
-  margin-left: -100px;
-  margin-top: -90px;
-}
-
-.foto-banner{
-max-width: 600px;
-margin-left: -200px;
-}
-
-.foto-folder {
-  max-width: 550px;
-  margin-left: -150px;
-}
-
-.foto-nieuwsbrief{
-max-width: 520px;
-margin-left: -180px;
-}
 
 /* FOOTER
 ----------------------------------------------
@@ -390,27 +519,25 @@ body {
 
 footer {
     background-color: white;
-    color: $color-black;
-    a {
-        color: $color-black;
-        &:hover {
-            
-        }
-    }
 }
 
-
 .icon-artevelde {
-  max-width: 180px;
-  padding-bottom: 60px;
-  padding-top: 40px;
+  max-width: 140px;
+  padding-top: 20px;
+  margin-top: 10px;
 }
 
 .footer-logo {
-  max-width: 230px;
-  padding-top: 30px;
+  max-width: 180px;
+  padding-top: 20px;
 }
 
-.witte-tekst{
-  color: $color-white
+.footer-tekst{
+  font-family: $myfont-family-title;
+  font-size: 0.8rem;
+  line-height: 7%;
+  margin-top: 70px;
+  color: $TwirlRood;
+  font-weight:$font-weight-medium;
+  padding-left: 30px;
 }
